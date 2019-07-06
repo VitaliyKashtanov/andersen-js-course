@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.wrap{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 1px solid #ccc;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.task-head{
+	margin-bottom: 30px;
+}
+
+input{
+	outline: none;
+	border: none;
+	text-indent: 10px;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+
+button{
+	outline: none;
+	border: none;
+	padding: 5px;
+	background-color: #ccc;
+}
+button:hover{
+	background-color: #999;
+	cursor: pointer;
+}
+
+p{
+	color: #333;
+	display: inline-block;
+	padding: 5px 10px;
+}
+p:hover{
+	cursor: pointer;
+}
+
+.btn-del{
+	float: right;
+}
